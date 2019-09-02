@@ -1,0 +1,10 @@
+<mvc:View
+		controllerName="com.sap.ieg.cas.msdc.Exec01.controller.MainView"
+		xmlns="sap.m"
+		xmlns:mvc="sap.ui.core.mvc">
+	<Page title="{i18n>homePageTitle}">
+		<content>
+				<mvc:XMLView viewName="com.sap.ieg.cas.msdc.Exec01.view.InvoiceList" />
+		</content>
+	</Page>
+</mvc:View>
