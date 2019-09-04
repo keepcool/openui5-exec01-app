@@ -12,7 +12,16 @@
 		"sourceTemplate": {
 			"id": "ui5template.basicSAPUI5ApplicationProject",
 			"version": "1.40.12"
-		}
+		},
+		"dataSources": {
+			"invoiceRemote": {
+			  "uri": "http://noxf.xi/svc/",
+			  "type": "OData",
+			  "settings": {
+				"odataVersion": "2.0"
+			  }
+			}
+		  }
 	},
 	"sap.ui": {
 		"technology": "UI5",
@@ -58,9 +67,7 @@
 				}
 			},
 			"invoice": {
-				"type": "sap.ui.model.json.JSONModel",
-				"uri": "Invoices.json",
-				"preload": true
+				"dataSource": "invoiceRemote"
 			}
 		},
 		"resources": {
