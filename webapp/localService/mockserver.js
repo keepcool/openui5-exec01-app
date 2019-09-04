@@ -8,15 +8,14 @@ sap.ui.define([
 		init: function () {
 			// create
 			var oMockServer = new MockServer({
-				rootUri: "http://abc.xdf/svc/"
+				rootUri: "https://services.odata.org/V2/Northwind/Northwind.svc/"
 			});
 
 			//var oUriParameters = new UriParameters(window.location.href);
 
 			// configure mock server with a delay
 			MockServer.config({
-				autoRespond: true,
-				autoRespondAfter: 100
+				autoRespond: true
 			});
 
 			// simulate

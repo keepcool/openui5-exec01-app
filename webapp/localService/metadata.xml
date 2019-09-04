@@ -4,10 +4,10 @@
 		<Schema Namespace="NorthwindModel" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
 			<EntityType Name="Invoice">
 				<Key>
-					<PropertyRef Name="ProductName"/>
-					<PropertyRef Name="Quantity"/>
-					<PropertyRef Name="ShipperName"/>
+					<PropertyRef Name="InvoiceID"/>
 				</Key>
+				<Property Name="InvoiceID" Type="Edm.String" Nullable="false" MaxLength="4" FixedLength="false"
+						  Unicode="true"/>
 				<Property Name="ShipperName" Type="Edm.String" Nullable="false" MaxLength="40" FixedLength="false"
 						  Unicode="true"/>
 				<Property Name="ProductName" Type="Edm.String" Nullable="false" MaxLength="40" FixedLength="false"

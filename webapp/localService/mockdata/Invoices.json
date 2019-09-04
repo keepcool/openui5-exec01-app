@@ -1,5 +1,6 @@
 [
     {
+      "InvoiceID": "0001",
       "ProductName": "Milk",
       "Quantity": 4,
       "ExtendedPrice": 9.99999,
@@ -8,6 +9,7 @@
       "Status": "B"
     },
     {
+      "InvoiceID": "0002",
       "ProductName": "Canned Beans",
       "Quantity": 3,
       "ExtendedPrice": 6.85000,
@@ -16,6 +18,7 @@
       "Status": "B"
     },
     {
+      "InvoiceID": "0003",
       "ProductName": "Salad",
       "Quantity": 2,
       "ExtendedPrice": 8.8000,
@@ -24,6 +27,7 @@
       "Status": "C"
     },
     {
+      "InvoiceID": "0004",
       "ProductName": "Bread",
       "Quantity": 1,
       "ExtendedPrice": 2.71212,
@@ -32,11 +36,21 @@
       "Status": "A"
     },
     {
+      "InvoiceID": "0005",
       "ProductName": "Apple",
       "Quantity": 10,
       "ExtendedPrice": 87.55300,
       "ShipperName": "Fun Inc.",
       "ShippedDate": "2015-08-27T00:00:00",
       "Status": "A"
+    },
+    {
+      "InvoiceID": "0006",
+      "ProductName": "Pineapple",
+      "Quantity": 12,
+      "ExtendedPrice": 90.0000,
+      "ShipperName": "Fun Inc.",
+      "ShippedDate": "2019-08-27T00:00:00",
+      "Status": "C"
     }
   ]
